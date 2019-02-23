@@ -1,0 +1,654 @@
+@media screen and (min-width:800px){
+
+
+
+/*----------------------------------HEADER---------------------------------------*/	
+
+	div#order a{
+		font-size: 1em;
+	}
+
+
+	.nav ul > li{
+		font-size: 1.1em;
+
+	}
+
+	div#search{
+		width: 700px;
+		margin-right: calc(50% - 349px);
+
+	}
+
+	div#search p{
+		margin: 8px 5px 8px 0px;
+		font-size: 1.5em;
+		
+	}
+
+	div#search form{
+		height: 48px;
+		width: 600px;
+	}
+
+	div#search form input#searchText{
+		height: 24px;
+		width: 550px;
+		margin: 13px 0px 13px 11px;
+
+	}
+
+
+	div#search form::after{
+
+		left:-600px; top:-31px;
+		border:6px solid transparent;
+		border-right: 5px solid white;
+
+	}
+
+	div#search form input#searchText::-webkit-input-placeholder { 
+		font-size: 1em;
+	}
+
+	button#button::before{
+		left: -16px;
+		top: 12px;
+	}
+
+	button#button::after{
+		left: 5px;
+		top: 31px;
+	}
+
+	div .PriceTitle p{
+		font-size: 1.9em;
+	}
+
+	/*------------------------------------MAIN-----------------------------------------*/
+
+
+	.dropdown .dropdownIn {
+	  
+		top: 30px;
+	}
+
+
+	/*---------------------------------FOOTER----------------------------------------*/
+	
+	footer div#autograph{
+		display: block;
+		float: left;
+		text-align: center;
+		width: 100%;
+		margin-top: 41px;
+		font-family: sfuitext;
+		font-size: 16px;
+	}
+	 
+	div#infobox div.phone{
+		display: block;
+		width: auto;
+		height: auto;
+		float: right;
+		margin: 0px 0px 20px 0px;
+		margin-right: 0px;
+	}
+
+	div#infobox div.phone a{
+		float: right;
+		color: rgb(47,95,191);
+		font-size: 0.8em;
+	}
+
+	
+}
+
+
+@media screen and (min-width:1000px){
+
+	#cont{
+		display: grid;
+		grid-template-rows:300px 150px auto auto;
+		grid-template-columns: 5fr 900px 5fr;
+
+	}
+
+	header{
+		background: linear-gradient(0deg , rgb(48,95,191),rgb(131,186,237));
+		grid-row: 1/3;
+		grid-column: 1/4;
+		padding-right: calc(50% - 450px);
+		padding-left: calc(50% - 450px);
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	footer{
+		background: rgb(240,243,246);
+		grid-row: 4/5;
+		grid-column: 1/4;
+		padding-right: calc(50% - 450px);
+		padding-left: calc(50% - 450px);
+		padding-top: 20px;
+		padding-bottom: 95px;
+
+	}
+
+	aside{
+		background: rgb(240,243,246);
+		grid-column: 1/4;
+		grid-row: 3/4;
+		min-height: calc(100vh - 888px);
+		
+	}
+
+	main{
+		background: #FFF;
+		grid-column: 2/3;
+		grid-row: 2/4;
+		min-height: calc(100vh - 888px);
+		z-index: 10;
+		min-width: 80%;										
+		padding: 30px 30px;
+		box-shadow: 0 0 60px rgba(0,0,0,0.1);
+
+	}
+/*------------------------------------MAIN-----------------------------------------*/
+
+	main div#wr{
+		width: calc(100% - 270px);
+		padding: 0px;
+	}
+
+
+	#RightWindow{
+		float: right;
+		width: 200px;
+		border-radius: 10px;
+	}
+
+	#RightWindow div.button button{
+		width: 160px; 
+	}
+
+ /*----------------------------------FOOTER---------------------------------------*/	
+	div#infobox{
+		
+		margin-top: 0px;
+		margin-right: 70px;
+
+	}
+
+	footer div#adress{
+		margin-top: 0px;
+		margin-left: 70px;
+	}
+
+
+	footer div#footerNav{
+		height: 225px;
+		margin-top: 14px;
+		width:  900px; 
+		float: left;
+		display: block;
+		padding:20px;
+
+	}
+
+	footer .nav a{
+		font-family: sfuitext;
+		font-size: 1.01em;
+		font-style: normal;
+		display: inline-block;
+		border-bottom: 1px black solid;
+	}
+
+	footer .nav ul > li{
+		margin-top:0px;
+	}
+	 
+	footer .nav ul :last-child{
+		margin-right:0px; 
+	}
+
+	div#certif{
+		width: auto;
+	}
+
+	div#footerNav p.tit{
+		display: block;
+		margin-top: 56px;
+		margin-bottom: 6px;
+		font-family: sfuitext;
+		font-size: 0.97em;
+	}
+
+	div#footerNav span{
+		display: block;
+		border-bottom: rgb(182,199,230) solid 1px; 
+		width: auto;
+	}
+
+
+	div#certif div.col1{
+		float: left;
+		width: 270px;
+		margin-right: 15px;
+		height: 250px;
+	}
+
+	div#certif div.col2{
+		float: left;
+		width: 270px;
+		margin-right: 15px;
+		height: 250px;
+	}
+
+	div#certif div.col3{
+		float: right;
+		width: 270px;
+		height: 250px;
+	}
+
+	div#certif p{
+		font-family: sfuitext;
+		font-size: 0.848em;
+		margin-bottom: 10px;
+		display: block;
+		
+	}
+
+	div#certif p.bold{
+		font-family: sfuitextBold;
+		display: block;
+		margin-top: 20px;
+		margin-bottom: 17px;
+		text-decoration:underline;
+		text-decoration-color: silver;
+		text-underline-position: under;
+	}
+
+	div#certif p a{
+		text-decoration: none;
+		color: black;
+		text-decoration:underline;
+		text-decoration-color: silver;
+		text-underline-position: under;
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:1280px){
+
+	#cont{
+		display: grid;
+		grid-template-rows:300px 150px auto auto;
+		grid-template-columns: 5fr 1280px 5fr;
+
+	}
+
+	header{
+		padding-right: calc(50% - 640px);
+		padding-left: calc(50% - 640px);
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	footer{
+		padding-right: calc(50% - 640px);
+		padding-left: calc(50% - 640px);
+		padding-top: 40px;
+		padding-bottom: 95px;
+
+	}
+
+	aside{
+		min-height: calc(100vh - 888px);
+		
+	}
+
+	main{
+
+		min-height: calc(100vh - 888px);
+		z-index: 10;
+		min-width: 70%;										
+		padding: 60px 60px;
+
+	}
+
+
+
+/*-----------------------------------HEADER-----------------------------------------*/
+	.phone{
+
+		margin: 10px 77px 0px 43px; 
+		font-size: 1.25em;
+		
+	}
+
+	div.phone p sup{
+		font-size: 0.55em;
+	}
+
+	div.phone a{
+		font-size: 0.7em;
+	}
+
+
+	.nav, .nav ul{
+		margin:0px;
+		padding:0px;
+		width: auto;
+	}
+
+	.nav ul > li{
+		float: left;
+		margin:10px 12px 0px 0px;
+
+	}
+
+	.nav a{
+		display:block;
+		font-size: 16px;
+
+	}
+
+	div#order{
+		padding: 10px 22px;
+		margin: 0px 0px 15px 11px;
+	}
+
+	div#order a{
+		font-size: 0.97em;
+	}
+
+
+	div#search{
+		float: left;
+		margin: 17px 60px 0px 60px;
+		width: auto;
+	}
+
+	div#search p{
+		margin: 8px 13px 0px 0px;
+		font-size: 1.455em;
+		color: white;
+	}
+
+	div#search form{
+		height: 48px;
+		width: 1072px;
+	}
+
+	div#search form input#searchText{
+		width: 1016px;
+		height: 24px;
+		margin: 12px 0px 12px 11px;
+	}
+
+
+	div#search form input#searchText::-webkit-input-placeholder { 
+		font-size: 1em;
+	}
+
+	div#search form::after{
+		left:-1072px; top:-30px;
+		border:6px solid transparent;
+		border-right: 5px solid white;
+	}
+
+
+	div#search form button#button{
+		width:45px;
+		height: 48px;
+	}
+
+	button#button::before{
+		left: 9px;
+		top:12px;
+	}
+
+	button#button::after{
+		left: 29px;
+		top: 32px;
+		transform: rotate(320deg);
+	}
+
+	div .PriceTitle{
+		margin-top: 39px;
+		padding: 0px 200px;
+		height: 39px;
+		line-height: 39px;
+		width: auto;
+	}
+
+	div .PriceTitle p{
+		letter-spacing: 2px;
+		font-size: 2.47em;
+	}
+
+	#fastJump{
+
+		width:1280px;
+
+	}
+
+
+	/*----------------------------------FOOTER---------------------------------------*/	
+
+
+	footer div#adress{
+		width: 300px;
+		padding: 0px;
+		margin: 0px;
+	}
+
+
+	div.button{
+		
+		height: 42px; width: 300px;
+	}
+
+
+	footer div#footerNav{
+		margin-left: 42px;
+		width:  673px; 
+		float: left;
+		padding: 0px;
+
+	}
+
+	footer .nav a{
+		font-size: 16px;
+	}
+
+	footer .nav ul > li{
+		margin-top:0px;
+		margin-right:18px;
+	}
+	 
+	div#certif{
+		width: 673px;
+
+	}
+
+	div#footerNav p.tit{
+		font-size: 15px;
+	}
+
+	div#certif div.col1{
+		width: 196px;
+		margin-right: 27px;
+		height: 130px;
+	}
+
+	div#certif div.col2{
+		width: 205px;
+		margin-right: 27px;
+		height: 130px;
+	}
+
+	div#certif div.col3{
+		float: left;
+		width: 217px;
+		height: 130px;
+	}
+
+
+	div#infobox{
+		float: right;
+		width: 189px;
+		padding: 0px;
+		margin: 0px;
+
+	}
+
+	div#infobox div.phone{
+		display: block;
+		width: auto;
+		height: auto;
+		float: right;
+		margin: 0px 0px 20px 0px;
+		margin-right: 0px;
+	}
+
+	div#infobox div.phone a{
+		float: right;
+		color: rgb(47,95,191);
+		font-size: 0.8em;
+	}
+
+
+/*------------------------------------MAIN-----------------------------------------*/
+
+
+
+	main div#wr{
+		width: 780px;
+
+	}
+
+	.dropdown {
+
+		width: 780px;
+		margin: 0px 0px 20px 0px;
+		padding: 11px 0px;
+		font-size: 1.01em;
+
+	}
+
+	.dropdown .dropdownIn {
+		top: 50px;
+		width: 780px;
+		font-size: 1.01em;
+	}
+	 
+	 
+
+	/*-------------------------------------------------*/
+
+	#form{
+		width: 780px;
+	}
+
+	#form form div{
+		margin: auto;
+		height: 71px;
+	}
+
+	#form form div input{
+
+		padding: 10px;
+
+	}
+
+	#form form div button{
+	    top: 12px;
+	}
+
+
+	#form form div input:focus:placeholder-shown{
+	  border-bottom: 1px solid red !important;
+
+	}
+
+	input:focus:placeholder-shown:required ~ .help-text:before{
+		
+		font-size: 0.7em;
+		
+	}
+
+
+	/*--------------------------------------------------------------------------*/
+
+	div#option{
+
+		padding-top: 20px;
+		margin-top: 0px;
+	}
+
+	div#option p{
+		font-size: 1.01em;
+	}
+
+	
+	.container {
+		padding-left: 25px;
+		margin-bottom: 12px;
+		font-size: 0.87em;
+	}
+
+
+	.container p.cost{
+		font-size: 0.87em;
+
+	}
+
+
+
+	/*----------------------------------------------------------*/
+
+
+
+	#RightWindow{
+		float: right;
+		width: 260px;
+		border-radius: 10px;
+		padding: 30px 40px 35px 40px;
+
+	}
+
+	#RightWindow div.button{
+		width: 260px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding: 5px 0px;
+	}
+
+	#RightWindow div.button button{
+		width: 260px;
+	}
+
+
+	#RightWindow p.priceTag{
+		font-size: 2.91em;
+	}
+
+	#RightWindow p{
+		font-size: 1.01em;
+	}
+
+
+}

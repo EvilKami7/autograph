@@ -1,0 +1,125 @@
+@font-face {
+font-family: "sfuidisplay";
+  src: url("../css/fonts/sfuidisplay-regular/sfuidisplay-regular.eot");
+  src: local('sfuidisplay'), 
+  url("../css/fonts/sfuidisplay-regular/sfuidisplay-regular.eot?#iefix") format("embedded-opentype"), 
+  url("../css/fonts/sfuidisplay-regular/sfuidisplay-regular.woff") format("woff"),
+  url("../css/fonts/sfuidisplay-regular/sfuidisplay-regular.ttf") format("truetype"), 
+  url("../css/fonts/sfuidisplay-regular/sfuidisplay-regular.svg#PT Serif") format("svg");
+
+}
+
+@font-face {
+font-family: "sfuidisplayBold";
+  src: url("../css/fonts/sfuidisplay-bold/sfuidisplay-bold.eot");
+  src: local('sfuidisplay'), 
+  url("../css/fonts/sfuidisplay-bold/sfuidisplay-bold.eot?#iefix") format("embedded-opentype"), 
+  url("../css/fonts/sfuidisplay-bold/sfuidisplay-bold.woff") format("woff"),
+  url("../css/fonts/sfuidisplay-bold/sfuidisplay-bold.ttf") format("truetype"), 
+  url("../css/fonts/sfuidisplay-bold/sfuidisplay-bold.svg#PT Serif") format("svg");
+
+}
+
+@font-face {
+font-family: "sfuidisplayLight";
+  src: url("../css/fonts/sfuidisplay-light/sfuidisplay-light.eot");
+  src: local('sfuidisplay'), 
+  url("../css/fonts/sfuidisplay-light/sfuidisplay-light.eot?#iefix") format("embedded-opentype"), 
+  url("../css/fonts/sfuidisplay-light/sfuidisplay-light.woff") format("woff"),
+  url("../css/fonts/sfuidisplay-light/sfuidisplay-light.ttf") format("truetype"), 
+  url("../css/fonts/sfuidisplay-light/sfuidisplay-light.svg#PT Serif") format("svg");
+
+}
+
+@font-face {
+font-family: "sfuidisplayMedium";
+  src: url("../css/fonts/sfuidisplay-medium/sfuidisplay-medium.eot");
+  src: local('sfuidisplay'), 
+  url("../css/fonts/sfuidisplay-medium/sfuidisplay-medium.eot?#iefix") format("embedded-opentype"), 
+  url("../css/fonts/sfuidisplay-medium/sfuidisplay-medium.woff") format("woff"),
+  url("../css/fonts/sfuidisplay-medium/sfuidisplay-medium.ttf") format("truetype"), 
+  url("../css/fonts/sfuidisplay-medium/sfuidisplay-medium.svg#PT Serif") format("svg");
+
+}
+
+@font-face {
+font-family: "sfuidisplaySemibold";
+  src: url("../css/fonts/sfuidisplay-semibold/sfuidisplay-semibold.eot");
+  src: local('sfuidisplay'), 
+  url("../css/fonts/sfuidisplay-semibold/sfuidisplay-semibold.eot?#iefix") format("embedded-opentype"), 
+  url("../css/fonts/sfuidisplay-semibold/sfuidisplay-semibold.woff") format("woff"),
+  url("../css/fonts/sfuidisplay-semibold/sfuidisplay-semibold.ttf") format("truetype"), 
+  url("../css/fonts/sfuidisplay-semibold/sfuidisplay-semibold.svg#PT Serif") format("svg");
+
+
+}
+
+
+@font-face {
+font-family: "sfuitext";
+  src: url("../css/fonts/sfuitext-regular/sfuitext-regular.eot");
+  src: local('sfuitext'), 
+  url("../css/fonts/sfuitext-regular/sfuitext-regular.eot?#iefix") format("embedded-opentype"), 
+  url("../css/fonts/sfuitext-regular/sfuitext-regular.woff") format("woff"),
+  url("../css/fonts/sfuitext-regular/sfuitext-regular.ttf") format("truetype"), 
+  url("../css/fonts/sfuitext-regular/sfuitext-regular.svg#PT Serif") format("svg");
+
+
+}
+
+@font-face {
+font-family: "sfuitextBold";
+  src: url("../css/fonts/sfuitext-bold/sfuitext-bold.eot");
+  src: local('sfuitext'), 
+  url("../css/fonts/sfuitext-bold/sfuitext-bold.eot?#iefix") format("embedded-opentype"), 
+  url("../css/fonts/sfuitext-bold/sfuitext-bold.woff") format("woff"),
+  url("../css/fonts/sfuitext-bold/sfuitext-bold.ttf") format("truetype"), 
+  url("../css/fonts/sfuitext-bold/sfuitext-bold.svg#PT Serif") format("svg");
+
+
+}
+
+@font-face {
+font-family: "sfuitextLight";
+  src: url("../css/fonts/sfuitext-light/sfuitext-light.eot");
+  src: local('sfuitext'), 
+  url("../css/fonts/sfuitext-light/sfuitext-light.eot?#iefix") format("embedded-opentype"), 
+  url("../css/fonts/sfuitext-light/sfuitext-light.woff") format("woff"),
+  url("../css/fonts/sfuitext-light/sfuitext-light.ttf") format("truetype"), 
+  url("../css/fonts/sfuitext-light/sfuitext-light.svg#PT Serif") format("svg");
+
+
+}
+
+@font-face {
+font-family: "sfuitextMedium";
+  src: url("../css/fonts/sfuitext-medium/sfuitext-medium.eot");
+  src: local('sfuitext'), 
+  url("../css/fonts/sfuitext-medium/sfuitext-medium.eot?#iefix") format("embedded-opentype"), 
+  url("../css/fonts/sfuitext-medium/sfuitext-medium.woff") format("woff"),
+  url("../css/fonts/sfuitext-medium/sfuitext-medium.ttf") format("truetype"), 
+  url("../css/fonts/sfuitext-mediumsfuitext-medium.svg#PT Serif") format("svg");
+
+}
+
+@font-face {
+font-family: "sfuitextSemibold";
+  src: url("../css/fonts/sfuitext-semibold/sfuitext-semibold.eot");
+  src: local('sfuitext'), 
+  url("../css/fonts/sfuitext-semibold/sfuitext-semibold.eot?#iefix") format("embedded-opentype"), 
+  url("../css/fonts/sfuitext-semibold/sfuitext-semibold.woff") format("woff"),
+  url("../css/fonts/sfuitext-semibold/sfuitext-semibold.ttf") format("truetype"), 
+  url("../css/fonts/sfuitext-semibold/sfuitext-semibold.svg#PT Serif") format("svg");
+
+
+}
+
+/*---------------------------------------------------------------*/
+* {
+	padding:0px;
+	margin:0px;
+}
+
+*:focus {
+    outline: none;
+}

@@ -1,0 +1,141 @@
+
+@media screen and (min-width:600px){
+
+
+	/*----------------------------------HEADER---------------------------------------*/	
+
+	.logo{
+		float: left;
+	}
+
+	svg#dropAcc{
+		display: none;
+	}
+
+	.phone{
+		float: left;
+		
+	}
+
+	div.phone p{
+		float: right;
+	}
+
+	div.phone p sup{
+		font-size: 0.7em;
+	}
+
+
+
+	div#order{
+		padding: 15px 22px;
+		margin: 0px 0px;
+	}
+
+	div#order a{
+		font-size: 0.8em;
+	}
+
+	.nav{
+		margin:0px;
+		padding:0px;
+		display: block;
+		float: left;
+		width: 100%;
+	}
+
+	.nav ul{
+		list-style-type:none;
+		text-align: center;
+
+	}
+
+	.nav ul > li{
+		margin:10px 15px 0px 0px;
+		display:inline-block;
+		font-family:sfuitextMedium;
+		font-size: 0.9em;
+
+	}
+
+	.nav a{
+		
+		text-decoration:none;
+		margin:0px 0px 0px 0px;
+		color: black;
+
+
+	}
+
+	div#search{
+		width: 580px;
+		margin-right: calc(50% - 287px);
+	}
+
+	div#search form{
+		width: 500px;
+	}
+
+	div#search form input#searchText{
+		width: 450px;
+
+	}
+
+
+	div#search form::after{
+
+		left:-499px; top:-22px;
+
+	}
+
+
+ /*----------------------------------FOOTER---------------------------------------*/	
+
+
+
+	div#infobox{
+		float: right;
+		margin-top: 0px;
+	}
+
+	 
+	div#infobox div.phone{
+		display: block;
+		width: auto;
+		height: auto;
+		float: right;
+		margin: 0px 0px 20px 0px;
+		margin-right: 0px;
+		font-size: 1.2em;
+	}
+
+	div#infobox div.phone a{
+		float: right;
+		color: rgb(47,95,191);
+		font-size: 0.8em;
+	}
+
+
+
+
+	/*------------------------------------MAIN-----------------------------------------*/
+
+
+	.dropdown .dropdownIn {
+	  
+		top: 50px;
+	}
+
+	#RightWindow div.button{
+		width: auto;
+		margin: 10px 10px;
+		padding: 10px;
+	}
+
+	input:focus:placeholder-shown:required ~ .help-text:before{
+		
+		font-size: 0.7em;
+		
+	}
+
+}

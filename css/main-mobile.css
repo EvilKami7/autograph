@@ -1,0 +1,679 @@
+
+@media screen and (min-width:320px){
+
+	#cont{
+		display:grid;
+		grid-template-rows: auto auto auto;
+		grid-template-columns:100%;	
+	}
+
+	header{
+		background: linear-gradient(0deg , rgb(48,95,191),rgb(131,186,237));
+		grid-row: 1/2;
+		grid-column: 1;
+		padding: 20px;
+	}
+
+	footer{
+		background: rgb(240,243,246);
+		grid-row: 3/4;
+		grid-column: 1;
+		padding: 20px;
+
+	}
+
+	main{
+		background: #FFF;
+		grid-column: 1;
+		grid-row: 2/3;
+		
+	}
+
+	/*----------------------------------HEADER---------------------------------------*/	
+
+	.logo{
+		float: right;
+	}
+
+	svg#dropAcc {
+		display: block;
+		float: left;
+	}
+
+	header div#accordeon{
+		display:none;
+		position:absolute;
+		top:70px;left:0px;
+		width: 200px; 
+		height: 200px;
+		background:#FFFFFF;
+		border:solid #2f5fbf 2px;
+		overflow:auto;
+		z-index:100;
+	}
+
+	header #accordeon li{
+		list-style-type:none;
+	}
+	
+	header #accordeon a{
+		text-align: center;
+		display:block;
+		text-decoration:none;
+		color:black;
+		font-family:sfuitext;
+		font-size: 14px;
+		margin:20px;
+		font-weight:900;
+	}
+	
+
+
+	.phone{
+		float: right;
+		width: 120px; height: 39px;
+		margin: 10px 10px; 
+		font-family:sfuidisplayMedium;
+		font-size: 1em;
+		
+	}
+
+	div.phone p{
+		display: block;
+		padding: 0px; margin: 0px;
+		float: right;
+	}
+
+	div.phone p sup{
+		font-size: 0.7em;
+	}
+
+	div.phone a{
+		font-size: 0.9em;
+		font-family:sfuitext;
+		color:white;
+		display: block; 
+		margin-top:0px;
+		padding: 0px;
+		float: right;
+	}
+
+	div#order{
+		background: #fff;
+		border-radius: 5px;
+		float: right;
+		padding: 15px 22px;
+		margin: 10px 10px;
+	}
+
+	div#order a{
+		color: rgb(46,94,191);
+		text-decoration: none;
+		font-family:sfuitextMedium;
+		font-size: 0.97em;
+	}
+
+	.nav{
+		display: none;
+	}
+
+
+	div#search{
+		position: relative;
+		float: right;
+		width: 280px;
+		margin-right: calc(50% - 137px);
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	div#search p{
+		display: inline-block;
+		margin: 8px 5px 8px 0px;
+		font-family:sfuitext;
+		font-size: 1em;
+		color: white;
+	}
+
+	div#search form{
+		float: right;
+		display: inline;
+		background: white;
+		border-radius: 5px;
+		height: 36px;
+		width: 220px;
+	}
+
+	div#search form input#searchText{
+		width: 150px;
+		height: 18px;
+		margin: 9px 0px 9px 11px;
+		border: none;
+		display: inline-block;
+		position: relative;
+	}
+
+	div#search form input#searchText:active{
+		border: none;
+	}
+
+	div#search form input#searchText::-webkit-input-placeholder { 
+		color:#888;
+		font-family: sfuitextLight;
+		font-style: italic;
+		font-size: 0.8em;
+	}
+
+	div#search form::after{
+		content: "";
+		display: block;
+		position: relative;
+		left:-220px; top:-22px;
+		border:4px solid transparent;
+		border-right: 3px solid white;
+	}
+
+
+	div#search form button#button{
+		position: relative;
+		width:20px;
+		height: 36px;
+		display: inline-block;
+		float: right;
+		background: none;
+		border: none;
+	}
+
+	button#button::before{
+		content: "";
+		display: block;
+		width: 17px; height: 17px;
+		position: absolute;
+		border:#7F8594 solid 3px;
+		border-radius: 50%;
+		left: -9px;
+		top:6px;
+	}
+
+	button#button::after{
+		content: "";
+		display: block;
+		width: 0px; height: 3px;
+		position: absolute;
+		border:#7F8594 solid 2px;
+		border-radius: 0px 0px 7px 7px;
+		background: #7F8594;
+		left: 12px;
+		top: 25px;
+		transform: rotate(309deg);
+	}
+
+
+	div .PriceTitle{
+		float: left;
+		line-height: 20px;
+		margin-left: 5px;
+		width:100%;
+	}
+
+	div .PriceTitle p{
+		font-family: sfuidisplayLight;
+		color: white;
+		letter-spacing: 1.5px;
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+	#fastJump{
+		float: left;
+		width:100%;
+		margin-top:16px;
+	}
+
+	#fastJump ul{
+		list-style-type:none;
+		text-align: center;
+	}
+
+	#fastJump ul li{
+		display: inline-block;
+		font-family: sfuitext;
+		font-size: 0.95em;
+	}
+
+	#fastJump ul li a{
+		text-decoration: none;
+		margin: 0px 5px 0px 0px;
+		color: black;
+
+	}
+
+	#fastJump ul li.last::after{
+		content: "\00B7";
+		color: white;
+	}
+
+	#fastJump ul li.current a{
+		text-decoration: underline;
+		color:white;
+	}
+
+ /*----------------------------------FOOTER---------------------------------------*/	
+
+
+	footer div#adress{
+		width: 280px;
+		float: left;
+	}
+
+	footer div#adress address{
+		float: left;
+		display: inline-block;
+		font-family: sfuitext;
+		font-size: 1.01em;
+		font-style: normal;
+	}
+
+	footer div#adress address p{
+		margin-top: 20px;
+	}
+
+	div.button{
+		float: left;
+		height: 42px; width: 100%;
+		background: #005FC3;
+		margin-top: 25px;
+		border-radius: 5px;
+	}
+
+	div.button a{
+
+		text-decoration: none;
+		color: white;
+		line-height: 42px;
+		font-family: sfuitextMedium;
+	}
+
+	footer div#footerNav{
+		display: none;
+	}
+
+	div#infobox{
+		float: left;
+		width: 280px;
+		height: auto;
+		margin-top: 40px;
+	}
+
+	div#infobox div.phone{
+		display: none;
+	}
+
+
+	div#infobox .parking{
+		display: inline-block;
+		width: 112px; height: 64px;
+		float: right;
+		font-family: sfuitextMedium;
+		font-size: 1.21em;
+		margin-right: 10px;
+	}
+
+	div#infobox p.messPark{
+		display: block;
+		float: left;
+		font-family: sfuitext;
+		font-size: 1.01em;
+		margin-top: 15px;
+
+	}
+
+	footer div#autograph{
+		display: none;
+	}
+
+	/*------------------------------------MAIN-----------------------------------------*/
+
+	main div#wr{
+		width: calc(100vw - 40px);
+		position: relative;
+		float: left;
+		padding: 20px;
+	}
+
+	main div#wr legend{
+		font-family: sfuitextSemibold;
+		font-size: 14px;
+		color: #2f5fbf;
+
+	}
+
+	.dropdown {
+	  
+		float:left;
+		position: relative;
+		width: 100%;
+		margin: 0px;
+		padding: 5px 0px;
+	    
+		background: #fff;
+		border-bottom: 1px solid rgba(47,95,191,1);
+		cursor: pointer;
+		outline: none;
+   		font-family: sfuitext;
+		font-size: 1em;
+		color: black;
+	}
+
+	.dropdown:after{
+		display: inline-block;
+		content: "";
+		width: 7px;
+		height: 7px;
+		border-right: 2px solid gray;
+		border-bottom: 2px solid gray;
+		position: absolute;
+		top: 15px;
+		right: 8px;
+		transform: rotate(45deg);
+	}
+
+	.dropdown .dropdownIn {
+	  
+		position: absolute;
+		top: 70px;
+		width: 100%;
+	   
+		background: white;
+		box-shadow: 0 0 5px rgba(0,0,0,0.1);
+
+		list-style: none;
+		font-family: sfuitext;
+		font-size: 1em;
+	   
+		opacity: 0;
+		pointer-events: none;
+		z-index: 10;
+	}
+	 
+	.dropdown .dropdownIn li a {
+		display: block;
+		padding: 13px;
+		text-decoration: none;
+		color: black;
+	}
+	
+	 
+	.dropdown .dropdownIn li:hover a {
+		background: rgb(239,239,244);
+	}
+
+
+	.dropdown.active .dropdownIn {
+		opacity: 1;
+		pointer-events: auto;
+
+	}
+
+	/*-------------------------------------------------*/
+
+	#form{
+		float: left;
+		width: auto;	
+	}
+
+	#form form div{
+	  margin-top: 25px;
+	  position: relative;
+	  float: left;
+	  width: 100%;
+	  height: 30px;
+	}
+
+	#form form div input{
+	    width: 100%;
+	    padding: 5px;
+	    box-sizing: border-box;
+	    outline: none;
+	    border: none; 
+	    border-bottom: 1px solid gray;
+	}
+
+
+
+	#form form div button{
+	    position: absolute;
+	    width: 5px; height: 5px;
+	    top: 15px;
+	    right: 6px;
+	    color: gray;
+	    border: 0;
+	    padding: 0 10px;
+	    background-color: #fff;
+	    outline: none;
+	    cursor: pointer;
+	    font-weight: 0.5em;
+	}
+
+	#form label{
+		position: relative;
+		float: left;
+		font-family: sfuitext;
+		font-size: 0.87em;
+		color:gray;
+		display: block;
+	}
+
+	#form form div p{
+		position: relative;
+		float: left;
+		font-family: sfuitext;
+		font-size: 0.87em;
+		color:gray;
+	}
+
+	#form form div input:focus:placeholder-shown{
+	  border-bottom: 1px solid red;
+
+	}
+
+	input:focus:placeholder-shown:required ~ .help-text:before{
+		content: "Не введено имя пользователя";
+		font-family: sfuitext;
+		font-size: 0.5em;
+		color:red;
+		display:block;
+		float: right;
+	}
+
+
+	input#phone:focus:placeholder-shown:required ~ .help-text:before{
+		content: "Не введен номер телефона"
+	}
+
+	input#email:focus:placeholder-shown:required ~ .help-text:before{
+		content: "Не введена электронная почта"
+	}
+
+	input#org:focus:placeholder-shown:required ~ .help-text:before{
+		content: "Не введено наименование организации"
+	}
+
+	#form form div input#comm:focus:placeholder-shown{
+	  border-bottom: 1px solid gray !important;
+
+	}
+
+	#form form div input:focus:placeholder{
+		color:black !important;
+	}
+
+	#form form div input::placeholder{
+		width: 90%;
+	}
+
+
+	/*--------------------------------------------------------------------------*/
+
+	div#option{
+		float: left;
+		margin-top: 30px;
+		width: 100%;
+
+	}
+
+	div#option p{
+		font-family: sfuitext;
+		font-size: 1em;
+	}
+
+	
+	.container {
+		display: block;
+		position: relative;
+		margin-top: 20px;
+		padding-left: 30px;
+		margin-bottom: 5px;
+		cursor: pointer;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		color:black;
+		font-family: sfuitext;
+		font-size: 0.87em;
+	}
+
+
+	
+	.container input {
+		position: absolute;
+		opacity: 0;
+		cursor: pointer;
+		height: 0;
+		width: 0;
+	}
+
+	
+	.checkmark {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 16px;
+		width: 16px;
+		background-color: #fff;
+		border: 1px gray solid;
+		border-radius: 4px;
+	}
+
+	
+	.container:hover input ~ .checkmark {
+	  background-color: #ccc;
+	}
+
+	
+	.container input:checked ~ .checkmark {
+	  background-color: rgb(45,97,191);
+	}
+
+	
+	.checkmark:after {
+	  content: "";
+	  position: absolute;
+	  display: none;
+	}
+
+	
+	.container input:checked ~ .checkmark:after {
+	  display: block;
+	}
+
+	
+	.container .checkmark:after {
+	  left: 5px;
+	  top: 2px;
+	  width: 3px;
+	  height: 8px;
+	  border: solid white;
+	  border-width: 0 3px 3px 0;
+	  -webkit-transform: rotate(45deg);
+	  -ms-transform: rotate(45deg);
+	  transform: rotate(45deg);
+	}
+
+
+
+	.container p.infobox{
+		display: inline;
+		color: rgb(47,95,191);
+		text-decoration: underline;	
+		text-underline-position: under;
+		text-decoration-style:dashed;
+		text-decoration-color: rgb(214,221,240); 
+
+	}
+
+	.container p.cost{
+		font-family: sfuitextMedium;
+		font-size: 0.7em;
+		color:rgb(45,97,191);
+		display: none;
+	}
+
+
+
+	/*----------------------------------------------------------*/
+
+
+	#RightWindow{
+		float: left;
+		width: auto;
+		background: rgb(239,239,241);
+		padding: 20px;
+	}
+
+
+	#RightWindow div.button{
+		width: auto;
+		margin:10px;
+	}
+
+	#RightWindow div.button:hover{
+		background: #6498dc;
+	}
+
+	#RightWindow p.priceTag{
+		font-family: sfuidisplaySemibold;
+		text-align: center;
+		font-size: 2em;
+	}
+
+	#RightWindow p{
+		font-family: sfuitext;
+		font-size: 1em;
+		display: block;
+		width: 100%;
+	}
+
+
+
+	#RightWindow div.button button{
+		width: 260px;
+		border:none;
+		background: transparent;
+		cursor: pointer;
+
+	}
+
+	#RightWindow div.button button p{
+		color: white;
+    	line-height: 42px;
+    	font-family: sfuitextMedium;
+    	font-size: 17px;
+
+	}
+
+
+
+
+}
